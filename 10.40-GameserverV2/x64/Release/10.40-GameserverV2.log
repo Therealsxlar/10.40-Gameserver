@@ -1,0 +1,28 @@
+﻿  dllmain.cpp
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Framework.h(16,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\Containers.h(204,35): warning C4267: '=': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_Basic.hpp(137,17): warning C4267: '=': conversion from 'size_t' to 'int32_t', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_CoreUObject_structs.hpp(392,50): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_CoreUObject_structs.hpp(392,78): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_CoreUObject_structs.hpp(392,106): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_CoreUObject_structs.hpp(392,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_FortniteGame_classes.hpp(32863,34): warning C4099: 'SDK::FString': type name first seen using 'struct' now seen using 'class'
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_FortniteGame_classes.hpp(49950,40): warning C4099: 'SDK::UClass': type name first seen using 'class' now seen using 'struct'
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\SDK\SDK\FN_FortniteGame_classes.hpp(49950,13): warning C4099: 'UE::TMap<SDK::TSoftObjectPtr<SDK::UClass>,int32>': type name first seen using 'class' now seen using 'struct'
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Framework.h(90,9): warning C4101: 'dwTemp': unreferenced local variable
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Player.h(15,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Player.h(17,129): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Player.h(19,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Player.h(21,107): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\dllmain.cpp(29,9): warning C4551: function call missing argument list
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Framework.h(139,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Framework.h(140,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Framework.h(141,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\10.40-GameserverV2\Framework.h(142,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  315 of 322 functions (97.8%) were compiled, the rest were copied from previous compilation.
+    7 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  10.40-GameserverV2.vcxproj -> C:\Users\O1ogr\OneDrive\Documents\GitHub\10.40-Gameserver\x64\Release\10.40-GameserverV2.dll
