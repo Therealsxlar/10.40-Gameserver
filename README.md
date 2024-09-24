@@ -14,5 +14,3 @@
 > List of features that this gameserver has:
 - [X] Getting Ingame
 - [X] Proper Hooking
-- [ ] Abilities
-- [ ] Inventory
