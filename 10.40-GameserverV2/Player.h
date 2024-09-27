@@ -60,6 +60,27 @@ static void ServerBeginEditingBuildingActorHook(AFortPlayerController* PlayerCon
 	}
 }
 
+
+void ServerEndEditingBuildingActorHook(AFortPlayerController* PlayerController, ABuildingSMActor* BuildingActorToStopEditing)
+{
+	if (PlayerController && PlayerController->Pawn && BuildingActorToStopEditing)
+	{
+		BuildingActorToStopEditing->EditingPlayer = nullptr;
+		BuildingActorToStopEditing->OnRep_EditingPlayer();
+		auto PlayerPawn = Cast<AFortPlayerPawnAthena>(PlayerController->Pawn);
+		if (PlayerPawn)
+		{
+			auto EditingTool = Cast<AFortWeap_EditingTool>(PlayerPawn->CurrentWeapon);
+			if (EditingTool)
+			{
+				EditingTool->bEditConfirmed = true;
+				EditingTool->EditActor = nullptr;
+				EditingTool->OnRep_EditActor();
+			}
+		}
+	}
+}
+
 namespace Player
 {
     void HookPlayer()
@@ -70,5 +91,6 @@ namespace Player
         VirtualHook(FortPlayerControllerAthenaDefault->VFT, 264, ServerAcknowlegePossession);
         VirtualHook(FortPlayerControllerAthenaDefault->VFT, 510, ServerExecuteInventoryItem);
         VirtualHook(FortPlayerControllerAthenaDefault->VFT, 555, ServerBeginEditingBuildingActorHook, nullptr);
+        VirtualHook(FortPlayerControllerAthenaDefault->VFT, 553, ServerEndEditingBuildingActorHook);
     }
 }
